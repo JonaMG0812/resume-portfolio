@@ -1,0 +1,21 @@
+.pdf-export-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1000;
+    box-shadow: var(--shadow-xl);
+    animation: slideIn var(--transition-base) ease-out;
+}
+
+.pdf-export-btn:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    .pdf-export-btn {
+        bottom: 1rem;
+        right: 1rem;
+        padding: var(--spacing-sm) var(--spacing-lg);
+        font-size: var(--font-size-sm);
+    }
+}

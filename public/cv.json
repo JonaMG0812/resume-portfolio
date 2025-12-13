@@ -1,0 +1,181 @@
+{
+  "basics": {
+    "name": "Jonathan I. MG",
+    "label": "Frontend Developer | Automation QA Engineer",
+    "image": "/profile.jpg",
+    "email": "join_mg@hotmail.com",
+    "summary": "Frontend & Automation QA with 7+ years in IT. Former Frontend Developer, now focused on quality, automation, and reliability. I test systems, break things on purpose, and help teams ship stable software. Dungeon Master on the side, summoning clean UIs and balanced test plans 🐉🪄",
+    "location": {
+      "city": "Guadalajara",
+      "countryCode": "MX",
+      "region": "Jalisco"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jimtzg",
+        "url": "https://www.linkedin.com/in/jimtzg/"
+      },
+      {
+        "network": "GitHub",
+        "username": "JonaMG0812",
+        "url": "https://github.com/JonaMG0812"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Infosys Technologies",
+      "position": "QA Analyst",
+      "url": "https://www.infosys.com/",
+      "startDate": "2023-04-01",
+      "endDate": "2025-11-01",
+      "summary": "Manual QA Analyst working on web and IVR applications, focused on functional validation, regression coverage, and overall product reliability. Actively involved in test design, defect tracking, and documentation within Agile teams.",
+      "highlights": [
+        "Designed and executed 250+ test cases for web and IVR systems using Zephyr, improving test coverage by 30% across major client applications.",
+        "Led manual testing cycles (functional, regression, and sanity), identifying and documenting over 180 defects with JIRA, reducing defect leakage in production by 25%.",
+        "Collaborated with cross-functional Agile teams to validate new features, accelerating release readiness by 15% through optimized test cycles.",
+        "Authored detailed test documentation in Confluence, ensuring 100% traceability from requirements to validation.",
+        "Conducted usability and reliability assessments that led to a 20% reduction in user-reported issues within three months post-deployment."
+      ],
+      "keywords": [
+        "ALM",
+        "Azure DevOps",
+        "Confluence",
+        "Git",
+        "JIRA",
+        "Selenium",
+        "TestRail",
+        "Zephyr"
+      ]
+    },
+    {
+      "name": "Softtek",
+      "position": "Software Development Engineer in Test / QA Lead",
+      "url": "https://www.softtek.com",
+      "startDate": "2021-07-01",
+      "endDate": "2023-04-30",
+      "summary": "SDET and QA Lead role focused on test automation strategy, frontend test coverage, and quality ownership across Agile delivery cycles. Combined hands-on automation with test planning and cross-team collaboration.",
+      "highlights": [
+        "Developed and maintained automated regression suites using Selenium (Java) and Cucumber, increasing test execution speed by 40%.",
+        "Introduced Cypress for frontend testing, reducing manual test time for UI validation by 35%.",
+        "Enhanced coverage for critical modules from 65% to 90%, directly improving release stability and reducing post-deployment incidents.",
+        "Supported Agile sprints by creating mockups and detailed test plans aligned with evolving user stories and acceptance criteria.",
+        "Utilized HP ALM, ARD, JIRA, and Confluence to track progress, defects, and documentation consistency across teams."
+      ],
+      "keywords": [
+        "Azure DevOps",
+        "Confluence",
+        "Cypress",
+        "Git",
+        "Jenkins",
+        "JIRA",
+        "Selenium",
+        "TestRail"
+      ]
+    },
+    {
+      "name": "Advanced Methods CO",
+      "position": "Frontend Developer",
+      "url": "https://www.amco.me/",
+      "startDate": "2018-06-01",
+      "endDate": "2020-02-28",
+      "summary": "Frontend Developer focused on maintaining and enhancing a payment platform UI, implementing design updates, improving performance, and modernizing user-facing components.",
+      "highlights": [
+        "Maintained and optimized the company’s payment system UI, implementing full module redesigns that improved load time by 25%.",
+        "Translated design mockups into functional and responsive interfaces, enhancing customer experience and accessibility.",
+        "Developed and modernized transactional email templates, improving email rendering consistency across clients by 40%."
+      ],
+      "keywords": [
+        "CSS3",
+        "Git",
+        "HAML",
+        "JavaScript",
+        "jQuery",
+        "Jira",
+        "Ruby on Rails",
+        "Travis CI"
+      ]
+    },
+    {
+      "name": "Grupo CAPEM",
+      "position": "Frontend Developer",
+      "url": "https://grupocapem.com/",
+      "startDate": "2018-05-01",
+      "endDate": "2019-08-29",
+      "summary": "Frontend development role centered on building new UI modules and improving the responsiveness and usability of an internal payment platform.",
+      "highlights": [
+        "Designed and implemented new UI modules and improved the internal payment platform’s responsiveness from 0% to 100%, increasing mobile usability metrics.",
+        "Collaborated with QA and backend teams to ensure pixel-perfect integrations, reducing front-end related defects by 20%."
+      ],
+      "keywords": [
+        "Bootstrap",
+        "Confluence",
+        "CSS3",
+        "Git",
+        "JavaScript",
+        "jQuery",
+        "Jira",
+        "Node.js",
+        "Pug",
+        "Sass"
+      ],
+      "print": false
+    },
+    {
+      "name": "Tata Consultancy Services",
+      "position": "Application Packager",
+      "url": "https://www.tcs.com/",
+      "startDate": "2017-06-01",
+      "endDate": "2018-05-29",
+      "summary": "Application Packager role focused on automating software installations for Windows Desktop and Server environments using PowerShell and enterprise deployment tools.",
+      "highlights": [
+        "Deployed software packages to hundreds of workstations and servers via SCCM, reducing manual installation effort and configuration errors by 40%.",
+        "Developed and maintained custom .exe and .msi installation packages using PowerShell, ensuring consistent and standardized user environments."
+      ],
+      "keywords": [
+        "Bash",
+        "PowerShell",
+        "SCCM"
+      ],
+      "print": false
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad de Colima",
+      "url": "https://www.ucol.mx/",
+      "area": "Computer Software Engineering",
+      "studyType": "Engineer's Degree",
+      "startDate": "2013-06-01",
+      "endDate": "2017-07-29",
+      "score": "8.2/10"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Zephyr Scale User Guide",
+      "date": "2023-06-15",
+      "issuer": "SmartBear",
+      "url": "https://smartbear.com/academy/zephyr%20enterprise/zephyr-enterprise-user-guide/"
+    },
+    {
+      "name": "Selenium Tester Foundation",
+      "date": "2022-06-20",
+      "issuer": "iSQI Group",
+      "url": "https://isqi.org/ISTQB-Certified-Tester-Foundation-Level-4.0-CTFL/CT-FL-4.2382"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native",
+      "description": "Daily professional communication"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional Complete",
+      "description": "Technical and business environments"
+    }
+  ]
+}
