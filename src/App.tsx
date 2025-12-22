@@ -14,18 +14,18 @@ function App() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    console.log('🔄 Starting resume data upload...');
+
     // Fetch CV data from JSON file
     fetch('/cv.json')
       .then(response => {
-        console.log('📡 Response received:', response.status, response.ok);
+
         if (!response.ok) {
           throw new Error('Failed to load resume data');
         }
         return response.json();
       })
       .then(data => {
-        console.log('✅ Resume data successfully uploaded:', data);
+
         setCvData(data);
         setLoading(false);
       })
