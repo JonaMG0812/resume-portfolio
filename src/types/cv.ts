@@ -3,8 +3,6 @@ export interface CV {
   work: Work[];
   education: Education[];
   certificates: Certificate[];
-  skills: Skill[];
-  projects?: Project[];
   languages?: Language[];
 }
 
@@ -13,16 +11,12 @@ export interface Basics {
   label: string;
   image: string;
   email: string;
-  phone: string;
-  url: string;
   summary: string;
   location: Location;
   profiles: Profile[];
 }
 
 export interface Location {
-  address?: string;
-  postalCode?: string;
   city: string;
   countryCode: string;
   region: string;
@@ -53,7 +47,6 @@ export interface Education {
   startDate: string;
   endDate: string;
   score?: string;
-  courses?: string[];
 }
 
 export interface Certificate {
@@ -61,24 +54,6 @@ export interface Certificate {
   date: string;
   issuer: string;
   url: string;
-}
-
-export interface Skill {
-  name: string;
-  level: string;
-  keywords: string[];
-}
-
-export interface Project {
-  name: string;
-  description: string;
-  highlights: string[];
-  keywords: string[];
-  startDate: string;
-  endDate: string;
-  url: string;
-  roles: string[];
-  type: string;
 }
 
 export interface Language {

@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
+import { LanguageProvider } from './contexts/LanguageContext.tsx'
 
 
 
@@ -16,7 +17,9 @@ if (!rootElement) {
   try {
     createRoot(rootElement).render(
       <StrictMode>
-        <App />
+        <LanguageProvider>
+          <App />
+        </LanguageProvider>
       </StrictMode>,
     );
 

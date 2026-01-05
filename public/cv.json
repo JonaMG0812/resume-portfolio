@@ -119,8 +119,7 @@
         "Node.js",
         "Pug",
         "Sass"
-      ],
-      "print": false
+      ]
     },
     {
       "name": "Tata Consultancy Services",
@@ -137,8 +136,7 @@
         "Bash",
         "PowerShell",
         "SCCM"
-      ],
-      "print": false
+      ]
     }
   ],
   "education": [

@@ -1,0 +1,179 @@
+{
+    "basics": {
+        "name": "Jonathan I. MG",
+        "label": "Frontend Developer | Automation QA Engineer",
+        "image": "/profile.jpg",
+        "email": "join_mg@hotmail.com",
+        "summary": "Frontend & Automation QA con más de 7 años de experiencia en IT. Ex Frontend Developer, actualmente enfocado en calidad, automatización y confiabilidad. Me dedico a probar sistemas, romper cosas a propósito y ayudar a los equipos a entregar software estable. Dungeon Master en mis ratos libres, invocando UIs limpias y planes de prueba bien balanceados 🐉🪄",
+        "location": {
+            "city": "Guadalajara",
+            "countryCode": "MX",
+            "region": "Jalisco"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "jimtzg",
+                "url": "https://www.linkedin.com/in/jimtzg/"
+            },
+            {
+                "network": "GitHub",
+                "username": "JonaMG0812",
+                "url": "https://github.com/JonaMG0812"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Infosys Technologies",
+            "position": "QA Analyst",
+            "url": "https://www.infosys.com/",
+            "startDate": "2023-04-01",
+            "endDate": "2025-11-01",
+            "summary": "QA Analyst enfocado en pruebas manuales para aplicaciones web e IVR, con énfasis en validación funcional, cobertura de regresión y confiabilidad del producto. Participación activa en diseño de pruebas, gestión de defectos y documentación dentro de equipos Agile.",
+            "highlights": [
+                "Diseño y ejecución de más de 250 casos de prueba para sistemas web e IVR usando Zephyr, incrementando la cobertura de pruebas en un 30% en aplicaciones clave del cliente.",
+                "Lideré ciclos de pruebas manuales (funcionales, regresión y sanity), identificando y documentando más de 180 defectos en JIRA, reduciendo la fuga de defectos a producción en un 25%.",
+                "Colaboración con equipos Agile multidisciplinarios para validar nuevas funcionalidades, acelerando la preparación de releases en un 15% mediante ciclos de prueba optimizados.",
+                "Creación de documentación detallada de pruebas en Confluence, asegurando trazabilidad completa entre requerimientos y validaciones.",
+                "Evaluaciones de usabilidad y confiabilidad que derivaron en una reducción del 20% en issues reportados por usuarios durante los primeros tres meses posteriores al despliegue."
+            ],
+            "keywords": [
+                "ALM",
+                "Azure DevOps",
+                "Confluence",
+                "Git",
+                "JIRA",
+                "Selenium",
+                "TestRail",
+                "Zephyr"
+            ]
+        },
+        {
+            "name": "Softtek",
+            "position": "Software Development Engineer in Test / QA Lead",
+            "url": "https://www.softtek.com",
+            "startDate": "2021-07-01",
+            "endDate": "2023-04-30",
+            "summary": "Rol como SDET y QA Lead enfocado en estrategia de automatización, cobertura de pruebas frontend y ownership de calidad a lo largo de ciclos Agile. Combiné automatización hands-on con planeación de pruebas y colaboración entre equipos.",
+            "highlights": [
+                "Desarrollo y mantenimiento de suites de regresión automatizadas con Selenium (Java) y Cucumber, incrementando la velocidad de ejecución de pruebas en un 40%.",
+                "Introducción de Cypress para pruebas frontend, reduciendo el tiempo de pruebas manuales de UI en un 35%.",
+                "Mejora de cobertura en módulos críticos del 65% al 90%, impactando directamente en la estabilidad de los releases y reduciendo incidentes post-deploy.",
+                "Soporte a sprints Agile mediante la creación de mockups y planes de prueba alineados a user stories y criterios de aceptación.",
+                "Uso de HP ALM, ARD, JIRA y Confluence para seguimiento de avances, defectos y consistencia documental entre equipos."
+            ],
+            "keywords": [
+                "Azure DevOps",
+                "Confluence",
+                "Cypress",
+                "Git",
+                "Jenkins",
+                "JIRA",
+                "Selenium",
+                "TestRail"
+            ]
+        },
+        {
+            "name": "Advanced Methods CO",
+            "position": "Frontend Developer",
+            "url": "https://www.amco.me/",
+            "startDate": "2018-06-01",
+            "endDate": "2020-02-28",
+            "summary": "Frontend Developer enfocado en el mantenimiento y mejora de la interfaz de una plataforma de pagos, implementando actualizaciones de diseño, mejoras de rendimiento y modernización de componentes visibles al usuario.",
+            "highlights": [
+                "Mantenimiento y optimización de la UI del sistema de pagos de la empresa, implementando rediseños completos de módulos que mejoraron los tiempos de carga en un 25%.",
+                "Traducción de mockups de diseño a interfaces funcionales y responsivas, mejorando la experiencia de usuario y accesibilidad.",
+                "Desarrollo y modernización de templates de correos transaccionales, incrementando la consistencia de renderizado entre clientes en un 40%."
+            ],
+            "keywords": [
+                "CSS3",
+                "Git",
+                "HAML",
+                "JavaScript",
+                "jQuery",
+                "Jira",
+                "Ruby on Rails",
+                "Travis CI"
+            ]
+        },
+        {
+            "name": "Grupo CAPEM",
+            "position": "Frontend Developer",
+            "url": "https://grupocapem.com/",
+            "startDate": "2018-05-01",
+            "endDate": "2019-08-29",
+            "summary": "Rol de desarrollo frontend enfocado en la construcción de nuevos módulos de UI y en mejorar la responsividad y usabilidad de una plataforma interna de pagos.",
+            "highlights": [
+                "Diseño e implementación de nuevos módulos de UI y mejora de la responsividad de la plataforma interna de pagos del 0% al 100%, incrementando métricas de usabilidad móvil.",
+                "Colaboración con equipos de QA y backend para asegurar integraciones pixel-perfect, reduciendo defectos relacionados al frontend en un 20%."
+            ],
+            "keywords": [
+                "Bootstrap",
+                "Confluence",
+                "CSS3",
+                "Git",
+                "JavaScript",
+                "jQuery",
+                "Jira",
+                "Node.js",
+                "Pug",
+                "Sass"
+            ]
+        },
+        {
+            "name": "Tata Consultancy Services",
+            "position": "Application Packager",
+            "url": "https://www.tcs.com/",
+            "startDate": "2017-06-01",
+            "endDate": "2018-05-29",
+            "summary": "Rol de Application Packager enfocado en la automatización de instalaciones de software para entornos Windows Desktop y Server utilizando PowerShell y herramientas de despliegue empresarial.",
+            "highlights": [
+                "Despliegue de paquetes de software en cientos de estaciones de trabajo y servidores mediante SCCM, reduciendo esfuerzo manual y errores de configuración en un 40%.",
+                "Desarrollo y mantenimiento de instaladores personalizados (.exe y .msi) con PowerShell, asegurando entornos de usuario consistentes y estandarizados."
+            ],
+            "keywords": [
+                "Bash",
+                "PowerShell",
+                "SCCM"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universidad de Colima",
+            "url": "https://www.ucol.mx/",
+            "area": "Computer Software Engineering",
+            "studyType": "Engineer's Degree",
+            "startDate": "2013-06-01",
+            "endDate": "2017-07-29",
+            "score": "8.2/10"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Zephyr Scale User Guide",
+            "date": "2023-06-15",
+            "issuer": "SmartBear",
+            "url": "https://smartbear.com/academy/zephyr%20enterprise/zephyr-enterprise-user-guide/"
+        },
+        {
+            "name": "Selenium Tester Foundation",
+            "date": "2022-06-20",
+            "issuer": "iSQI Group",
+            "url": "https://isqi.org/ISTQB-Certified-Tester-Foundation-Level-4.0-CTFL/CT-FL-4.2382"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "fluency": "Native",
+            "description": "Comunicación profesional diaria"
+        },
+        {
+            "language": "English",
+            "fluency": "Professional Complete",
+            "description": "Entornos técnicos y de negocio"
+        }
+    ]
+}
