@@ -1,4 +1,5 @@
 import type { Certificate } from '../types/cv';
+import { useLanguage } from '../hooks/useLanguage';
 import './Certificates.css';
 
 interface CertificatesProps {
@@ -6,15 +7,22 @@ interface CertificatesProps {
 }
 
 export default function Certificates({ certificates }: CertificatesProps) {
+    const { cv, language } = useLanguage();
+
     const formatDate = (dateString: string) => {
         const date = new Date(dateString);
-        return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+        const formatted = date.toLocaleDateString(language === 'es' ? 'es-ES' : 'en-US', { year: 'numeric', month: 'long' });
+        // Capitalize first letter for Spanish months
+        if (language === 'es') {
+            return formatted.charAt(0).toUpperCase() + formatted.slice(1);
+        }
+        return formatted;
     };
 
     return (
         <section className="section certificates-section" id="certificaciones">
             <div className="container">
-                <h2 className="section-title">Certifications</h2>
+                <h2 className="section-title">{cv.ui.certifications}</h2>
 
                 <div className="certificates-grid grid grid-2">
                     {certificates.map((cert, index) => (

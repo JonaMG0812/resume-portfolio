@@ -1,9 +1,25 @@
+export interface UILabels {
+  workExperience: string;
+  educationAndLanguages: string;
+  certifications: string;
+  present: string;
+  month: string;
+  months: string;
+  year: string;
+  years: string;
+  in: string;
+  downloadCV: string;
+  letsTalk: string;
+  availableToWork: string;
+}
+
 export interface CV {
   basics: Basics;
   work: Work[];
   education: Education[];
   certificates: Certificate[];
   languages?: Language[];
+  ui: UILabels;
 }
 
 export interface Basics {

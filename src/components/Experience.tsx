@@ -1,4 +1,5 @@
 import type { Work } from '../types/cv';
+import { useLanguage } from '../hooks/useLanguage';
 import './Experience.css';
 
 interface ExperienceProps {
@@ -6,11 +7,18 @@ interface ExperienceProps {
 }
 
 export default function Experience({ work }: ExperienceProps) {
+    const { cv, language } = useLanguage();
+
     const formatDate = (dateString: string | null) => {
-        if (!dateString) return 'Present';
+        if (!dateString) return cv.ui.present;
         const date = new Date(dateString);
-        // Using en-US to get capitalized months (e.g. "May", "June")
-        return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' });
+        // Use the current language for date formatting
+        const formatted = date.toLocaleDateString(language === 'es' ? 'es-ES' : 'en-US', { year: 'numeric', month: 'short' });
+        // Capitalize first letter for Spanish months
+        if (language === 'es') {
+            return formatted.charAt(0).toUpperCase() + formatted.slice(1);
+        }
+        return formatted;
     };
 
     const calculateDuration = (start: string, end: string | null) => {
@@ -21,15 +29,15 @@ export default function Experience({ work }: ExperienceProps) {
         const years = Math.floor(months / 12);
         const remainingMonths = months % 12;
 
-        if (years === 0) return `${remainingMonths} ${remainingMonths === 1 ? 'month' : 'months'}`;
-        if (remainingMonths === 0) return `${years} ${years === 1 ? 'year' : 'years'}`;
-        return `${years} ${years === 1 ? 'year' : 'years'} ${remainingMonths} ${remainingMonths === 1 ? 'month' : 'months'}`;
+        if (years === 0) return `${remainingMonths} ${remainingMonths === 1 ? cv.ui.month : cv.ui.months}`;
+        if (remainingMonths === 0) return `${years} ${years === 1 ? cv.ui.year : cv.ui.years}`;
+        return `${years} ${years === 1 ? cv.ui.year : cv.ui.years} ${remainingMonths} ${remainingMonths === 1 ? cv.ui.month : cv.ui.months}`;
     };
 
     return (
         <section className="section experience-section" id="experience">
             <div className="container">
-                <h2 className="section-title">Work Experience</h2>
+                <h2 className="section-title">{cv.ui.workExperience}</h2>
 
                 <div className="timeline">
                     {work.map((job, index) => (

@@ -143,8 +143,8 @@
         {
             "institution": "Universidad de Colima",
             "url": "https://www.ucol.mx/",
-            "area": "Computer Software Engineering",
-            "studyType": "Engineer's Degree",
+            "area": "Ingeniería en Sistemas Computacionales",
+            "studyType": "Ingeniería",
             "startDate": "2013-06-01",
             "endDate": "2017-07-29",
             "score": "8.2/10"
@@ -166,14 +166,28 @@
     ],
     "languages": [
         {
-            "language": "Spanish",
-            "fluency": "Native",
+            "language": "Español",
+            "fluency": "Nativo",
             "description": "Comunicación profesional diaria"
         },
         {
-            "language": "English",
-            "fluency": "Professional Complete",
+            "language": "Inglés",
+            "fluency": "Profesional",
             "description": "Entornos técnicos y de negocio"
         }
-    ]
+    ],
+    "ui": {
+        "workExperience": "Experiencia Laboral",
+        "educationAndLanguages": "Educación e Idiomas",
+        "certifications": "Certificaciones",
+        "present": "Presente",
+        "month": "mes",
+        "months": "meses",
+        "year": "año",
+        "years": "años",
+        "in": "en",
+        "downloadCV": "Descargar CV",
+        "letsTalk": "Contáctame",
+        "availableToWork": "Disponible para Trabajar"
+    }
 }

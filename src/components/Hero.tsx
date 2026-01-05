@@ -1,4 +1,5 @@
 import type { Basics } from '../types/cv';
+import { useLanguage } from '../hooks/useLanguage';
 import './Hero.css';
 
 interface HeroProps {
@@ -6,6 +7,19 @@ interface HeroProps {
 }
 
 export default function Hero({ basics }: HeroProps) {
+    const { cv } = useLanguage();
+
+    const handleContactClick = () => {
+        // Try to open mailto, but also copy email to clipboard as fallback
+        navigator.clipboard.writeText(basics.email).then(() => {
+            // Email copied successfully
+            console.log('Email copied to clipboard:', basics.email);
+        }).catch(err => {
+            console.error('Failed to copy email:', err);
+        });
+        // Let the mailto: link work normally
+    };
+
     return (
         <section className="hero">
             <div className="container">
@@ -13,7 +27,7 @@ export default function Hero({ basics }: HeroProps) {
                     <div className="hero-text">
                         <div className="hero-badge fade-in">
                             <span className="pulse-dot"></span>
-                            Available to Work
+                            {cv.ui.availableToWork}
                         </div>
                         <h1 className="hero-title slide-in">{basics.name}</h1>
                         <p className="hero-label slide-in">{basics.label}</p>
@@ -38,7 +52,12 @@ export default function Hero({ basics }: HeroProps) {
                         </div>
 
                         <div className="hero-actions slide-in">
-                            <a href={`mailto:${basics.email}`} className="btn btn-primary">
+                            <a
+                                href={`mailto:${basics.email}`}
+                                className="btn btn-primary"
+                                onClick={handleContactClick}
+                                title={`Email: ${basics.email}`}
+                            >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="18"
@@ -53,7 +72,7 @@ export default function Hero({ basics }: HeroProps) {
                                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                                     <polyline points="22,6 12,13 2,6"></polyline>
                                 </svg>
-                                Let’s Talk
+                                {cv.ui.letsTalk}
                             </a>
 
                             <div className="hero-socials">

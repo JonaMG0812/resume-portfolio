@@ -175,5 +175,19 @@
       "fluency": "Professional Complete",
       "description": "Technical and business environments"
     }
-  ]
+  ],
+  "ui": {
+    "workExperience": "Work Experience",
+    "educationAndLanguages": "Education & Languages",
+    "certifications": "Certifications",
+    "present": "Present",
+    "month": "month",
+    "months": "months",
+    "year": "year",
+    "years": "years",
+    "in": "in",
+    "downloadCV": "Download CV",
+    "letsTalk": "Let's Talk",
+    "availableToWork": "Available to Work"
+  }
 }

@@ -1,4 +1,5 @@
 import type { Education as EducationType, Language } from '../types/cv';
+import { useLanguage } from '../hooks/useLanguage';
 import './Education.css';
 
 interface EducationProps {
@@ -7,15 +8,22 @@ interface EducationProps {
 }
 
 export default function Education({ education, languages }: EducationProps) {
+    const { cv, language } = useLanguage();
+
     const formatDate = (dateString: string) => {
         const date = new Date(dateString);
-        return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' });
+        const formatted = date.toLocaleDateString(language === 'es' ? 'es-ES' : 'en-US', { year: 'numeric', month: 'short' });
+        // Capitalize first letter for Spanish months
+        if (language === 'es') {
+            return formatted.charAt(0).toUpperCase() + formatted.slice(1);
+        }
+        return formatted;
     };
 
     return (
         <section className="section education-section" id="education">
             <div className="container">
-                <h2 className="section-title">Education & Languages</h2>
+                <h2 className="section-title">{cv.ui.educationAndLanguages}</h2>
 
                 <div className="education-grid">
                     {education.map((edu, index) => (
@@ -42,7 +50,7 @@ export default function Education({ education, languages }: EducationProps) {
                             </div>
 
                             <div className="education-content">
-                                <h3 className="education-degree">{edu.studyType} in {edu.area}</h3>
+                                <h3 className="education-degree">{edu.studyType} {cv.ui.in} {edu.area}</h3>
                                 <a
                                     href={edu.url}
                                     target="_blank"
